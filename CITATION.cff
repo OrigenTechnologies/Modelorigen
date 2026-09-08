@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you reference ModelOrigen in educational or academic work, please cite it using this information."
+title: "ModelOrigen"
+type: software
+authors:
+  - name: "Origen Technologies"
+url: "https://modelorigen.in"
+repository-code: "https://github.com/OrigenTechnologies/Modelorigen"
+license: proprietary
