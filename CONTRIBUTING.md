@@ -1,3 +1,5 @@
+# Contributing to ModelOrigen
+
 Thank you for helping improve ModelOrigen.
 
 The application source code is currently closed-source,
