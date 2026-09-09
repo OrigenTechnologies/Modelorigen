@@ -1,1 +1,75 @@
+name: Feature Request
+description: Suggest an improvement or new learning experience for ModelOrigen
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement to ModelOrigen.
 
+        ModelOrigen focuses on helping learners understand real machine-learning
+        behavior through inspectable calculations, model states, and visual evidence.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of ModelOrigen would this improve?
+      options:
+        - Classical Machine Learning
+        - Deep Learning
+        - Data & AI Foundations
+        - Dataset / Preprocessing
+        - Model Evaluation
+        - Learning Experience
+        - User Interface
+        - Accessibility
+        - Mobile Experience
+        - Performance
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What learning problem would this solve?
+      description: Explain why this feature or improvement would be useful.
+      placeholder: Describe the problem or learning difficulty.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested improvement
+      description: Describe what you would like ModelOrigen to add or improve.
+      placeholder: Explain your suggested feature or change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: learning_value
+    attributes:
+      label: Educational value
+      description: How would this help learners understand the concept better?
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add examples, screenshots, references, or other useful context.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I checked that a similar feature request does not already exist.
+          required: true
